@@ -1,9 +1,8 @@
-var authorizedChatIds = ["-4753978173"];
-var token = "7698768718:AAF_mCjf4dWbL2SoXgdTS3WquHgovLlCDko";
+var authorizedChatIds = ["authorised_chat_id_1"];
+var token = "bot_token";
 
 function setTelegramWebhook() {
-  var url =
-    "https://script.google.com/macros/s/AKfycbzIfmd4qqJ_49HZVRTWalHR5OpDAR49JamOn39X3rYg9k0Xm-lEDETbcr54i5mEo60Upw/exec";
+  var url = "url_of_the_google_script_web_app";
   var apiUrl =
     "https://api.telegram.org/bot" +
     token +
