@@ -1,7 +1,10 @@
+// Replace with your chat ID or Group ID
 var authorizedChatIds = ["authorised_chat_id_1"];
+// Replace with your telegram bot token
 var token = "bot_token";
 
 function setTelegramWebhook() {
+  // Replace with your webapp deployment URL
   var url = "url_of_the_google_script_web_app";
   var apiUrl =
     "https://api.telegram.org/bot" +
